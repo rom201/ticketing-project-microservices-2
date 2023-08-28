@@ -1,4 +1,4 @@
-package com.cedeo.service.impl;
+package com.cydeo.service.impl;
 
 import com.cydeo.dto.UserDTO;
 import com.cydeo.entity.User;

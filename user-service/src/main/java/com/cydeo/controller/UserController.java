@@ -1,4 +1,4 @@
-package com.cedeo.controller;
+package com.cydeo.controller;
 
 
 import com.cydeo.dto.UserDTO;

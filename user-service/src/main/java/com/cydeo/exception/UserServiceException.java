@@ -1,4 +1,4 @@
-package com.cedeo.exception;
+package com.cydeo.exception;
 
 public class UserServiceException extends Exception {
 
