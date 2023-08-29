@@ -7,18 +7,17 @@ spring:
   cloud:
     config:
       server:
-        native:
+#        native:
         git:
 #          search-location: classpath:/config
          uri: https://github.com/rom201/ticketing-project-microservices-config-r
          default-label: main
          username: rom201
-         password: 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   #can be token
-#          '{cipher}11c1a0eb4421592f4d4913fa52971a70896067b7f9b033d56420bac609acee8d4e910f1241c11244dd2cec54156f0ff0efdea2c189fe7fc13f36e058fce30415'
-#      fail-fast: true
+         password: '{cipher}36a05364bd1b7696d5da9ecd572303772b2c09d11e86e1e6179899999178bbc9534a93e9c3d8c9c7bc96a46e9e9aab696c40295e7419feb772ff89407d74b746'
+      fail-fast: true
 
-#encrypt:
-#  key: cydeo
+encrypt:
+  key: cydeo
 
 server:
   port: 8888
